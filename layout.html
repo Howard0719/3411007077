@@ -13,13 +13,91 @@
             background-color: red;
             color: white;
         }
+        /* 相對位置 */
+        #box2{
+            position: relative;
+            top:20px;
+            left:20px;
+            background-color: blue;
+        }
+        /* 絕對位置 */
+        #box3{
+            position: absolute;
+            top: 180px;
+            left:20px;
+            background-color: green;
+        }
+        /* 浮動 */
+        .title{
+            border:1px solid;
+            height:150px;
+        }
+        .left{
+            float: left;
+            background-color: red;
+            width:50px;
+            height: 150px;
+        }
+        .right{
+            float: right;
+            background-color: blue;
+            width:50px;
+            height: 150px;
+        }
+        /* z-index */
+        .img{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index:-1;
+        }
+        .overflow{
+            border: 1px solid;
+            height: 100px;
+            width: 200px;
+            overflow: scroll;
+        }
     </style>
 </head>
 <body>
+    <!-- z-index -->
+    <div>
+        123
+        <img class="img" src="https://fakeimg.pl/100x100/">
+    </div>
+    <br><br><br>
+    <br><br><br>
     <div class="box" id="box1">box1</div>
     <div class="box" id="box2">box2</div>
     <div class="box" id="box3">box3</div>
-    <div class="box" id="box4">box4</div>
-    
+    <div class="box" id="box4">box4</div>    
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="title">
+        <div class="left">left</div>
+        <div class="right">right</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est et aperiam laborum necessitatibus ipsa labore quam delectus, blanditiis sunt recusandae expedita id debitis, sapiente sint, porro rerum accusamus atque architecto.
+        At, facilis quod necessitatibus veniam nesciunt aut quas expedita! Impedit iusto eius quod quidem fugiat aliquid quaerat sint vero officia, iure repellendus in placeat sequi, repellat beatae. Similique, blanditiis esse.
+        Consequatur suscipit provident consectetur sunt similique quibusdam, ut dicta sed tenetur, ipsum reiciendis harum nostrum assumenda vitae sit accusamus esse doloremque itaque expedita dolorem quod aspernatur tempore in? Odio, eius.
+        Consequatur officia corrupti commodi dicta? Esse animi delectus veniam ullam exercitationem molestias quis facilis maxime? Veniam vero suscipit unde deleniti, aliquid excepturi ullam, iusto quam inventore aut officiis, neque dolor!
+    </div>
+    <br>
+    <!-- overlflow -->
+    <div class="overflow">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quasi repudiandae doloremque fugiat! Vitae architecto, optio rem nemo atque corporis? Quaerat nostrum dolores, libero id suscipit aperiam deserunt nemo?
+        Qui nam veniam doloribus cumque beatae natus quasi, exercitationem suscipit tempora in, assumenda distinctio dolorem? Eligendi veritatis distinctio rerum dolorum? Sapiente nostrum magni qui quos magnam aliquid repellendus exercitationem soluta.
+        Rerum nihil, aspernatur dignissimos sequi iure eligendi neque cum minima, dolores doloribus ducimus officia delectus in quo nulla molestiae nisi ad. Sunt animi id fuga qui quasi voluptate dolores facilis!
+        Minima voluptate non qui dolores in dicta blanditiis ullam tenetur, repudiandae enim! Cum deserunt quisquam assumenda iusto voluptatem! Natus, assumenda? Quae consequatur aut, temporibus magni distinctio adipisci nobis voluptate dolores?
+        Maiores esse debitis atque, ex unde itaque eius corrupti modi eos, dolore dolor necessitatibus alias beatae hic, quaerat totam temporibus nostrum consectetur id veritatis pariatur quasi nam explicabo incidunt! Ut.
+        Nobis eos perferendis deserunt molestiae quae nam veniam! Repudiandae neque eum sed quis deserunt fugiat aliquam possimus quas, unde modi doloribus necessitatibus illum! Sunt, voluptas nesciunt alias assumenda maiores at.
+        Voluptatem cum maxime ipsam eligendi. Doloribus, dolore, dolores quaerat iure, accusantium nam nemo dolorum fugiat maxime eveniet quidem labore assumenda ea ad non et aut? Optio, at. Optio, consequatur nam!
+        Cupiditate, fuga, optio numquam quidem officiis corporis ut sapiente natus esse ex non itaque quisquam iure aliquid explicabo laborum alias. Laboriosam totam natus enim nulla eveniet et temporibus sit officiis.
+        Vitae dolorum praesentium fugit consectetur labore, pariatur accusantium porro eos ut sit excepturi, nobis aperiam! Adipisci quasi assumenda velit. Earum error voluptas fugit vel. Quasi nostrum doloribus ratione culpa blanditiis!
+        Expedita nesciunt error, tenetur facilis dicta quibusdam aperiam ratione saepe cumque eos soluta harum labore. Quod, officiis nesciunt iure itaque, quisquam consectetur porro qui numquam maiores facilis excepturi cum ipsam?
+    </div>
+        
+    </div>
 </body>
 </html>
